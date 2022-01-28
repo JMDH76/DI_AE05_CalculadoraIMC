@@ -5,7 +5,7 @@ import {View, Text, StyleSheet} from 'react-native';
 export default class Pie extends Component {
   render() {
     return (
-      <View>
+      <View margin={10}>
         <Text style={styles.nombre}>José Manuel Domínguez Hernández</Text>
         <Text style={styles.nombre}>2º DAM - Semi</Text>
         <Text style={styles.nombre}>2021-22</Text>

@@ -105,6 +105,10 @@ class Cuerpo extends Component {
     this.actualizaImagen(require('../../assets/blanco.png'));
   };
 
+  /*Render con componentes creados: Input, Boton, IconoBoton y Emoji
+    He creado los componentes a los que les paso los valores por props.
+    Dejo campos para rellenar desde aquí para poder reutilizarlos 
+    cambiando detalles*/
   render() {
     return (
       <View color="darkblue">
