@@ -21,8 +21,8 @@ export default class Input extends Component {
 //Estilos
 const styles = StyleSheet.create({
   inputText: {
-    height: 60,
+    height: 45,
     margin: 15,
-    fontSize: 20,
+    fontSize: 24,
   },
 });

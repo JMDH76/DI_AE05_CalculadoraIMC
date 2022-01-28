@@ -23,7 +23,7 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   fondo: {
     backgroundColor: '#D9E8FD',
-    height: '100%',
+    height: 790,
   },
   pantalla: {
     marginTop: 20,
