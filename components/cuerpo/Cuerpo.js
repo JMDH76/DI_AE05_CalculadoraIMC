@@ -53,7 +53,7 @@ class Cuerpo extends Component {
   };
 
   /*Comprueban digito a dígto que es un número el que se ha introduciodo en el campo
-  de peso o alturallamando a la función 'validarEntrada'; si es Nan lo borra y permite
+  de peso o altura llamando a la función 'validarEntrada'; si es Nan lo borra y permite
   seguir introduciendo cuando cerramos la alerta lanzada*/
   guardaPeso = mipeso => {
     if (validarEntrada(mipeso) === true) {
@@ -84,7 +84,7 @@ class Cuerpo extends Component {
       } else if (peso === '') {
         alerta('¡AVISO!', '\nDebe indicar su peso.');
       } else {
-        alerta('¡AVISO!', '\n¡ebe indicar su altura.');
+        alerta('¡AVISO!', '\n¡Debe indicar su altura.');
       }
     } else {
       let miresultado = (peso / Math.pow(altura / 100, 2)).toFixed(1); //Calculo IMC
